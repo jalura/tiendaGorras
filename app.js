@@ -41,7 +41,7 @@ app.get('/', ( req, res ) => {
 app.get('/gorras', ( req, res ) => {
     var tienda = new Object();
     tienda.status = true;
-    tienda.mensaje = "";
+    tienda.mensaje = "Consulta de Gorras realizada con exito";
     tienda.numArticulos = 3;
 
     var tiendaGorras = new Array();
